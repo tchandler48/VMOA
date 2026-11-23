@@ -1,0 +1,255 @@
+USERID KICKS
+VMOAM11   KIKMSD MODE=INOUT,CTRL=(FREEKB,FRSET),EXTATT=YES             X
+               DSATTS=(COLOR,HILIGHT),MAPATTS=(COLOR,HILIGHT)
+MAPA      KIKMDI SIZE=(24,80)
+CTIME4    KIKMDF POS=(01,05),LENGTH=08,PICOUT='99B99B99',              X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(01,28),LENGTH=13,INITIAL='VM370 OFFICE',         X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(01,41),LENGTH=10,INITIAL='AUTOMATION',           X
+               ATTRB=(PROT,BRT)
+CDATE4    KIKMDF POS=(01,68),LENGTH=10,PICOUT='99B99B9999',            X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(02,05),LENGTH=07,INITIAL='VMOAM11',              X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(02,29),LENGTH=04,INITIAL='VIEW',                 X
+               ATTRB=(PROT,BRT)
+VDAY      KIKMDF POS=(02,34),LENGTH=01,ATTRB=(FSET),COLOR=GREEN
+          KIKMDF POS=(02,36),LENGTH=13,INITIAL='DAYS SCHEDULE',        X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(02,72),LENGTH=04,INITIAL='MAPA',                 X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(04,05),LENGTH=13,INITIAL='CALENDAR FOR:',        X
+               COLOR=YELLOW
+OWNER4    KIKMDF POS=(04,20),LENGTH=25,                                X
+               HILIGHT=UNDERLINE,                                      X
+               COLOR=YELLOW
+          KIKMDF POS=(04,45),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+          KIKMDF POS=(05,05),LENGTH=05,INITIAL='DATE:',COLOR=YELLOW
+WDATE4    KIKMDF POS=(05,20),LENGTH=08,ATTRB=(FSET)                    X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT),COLOR=YELLOW
+          KIKMDF POS=(05,29),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+          KIKMDF POS=(07,10),LENGTH=05,INITIAL='START',ATTRB=(PROT),   X
+               COLOR=YELLOW
+          KIKMDF POS=(07,19),LENGTH=04,INITIAL='END',ATTRB=(PROT),     X
+               COLOR=YELLOW
+          KIKMDF POS=(07,29),LENGTH=08,INITIAL='COMMENTS',             X
+               COLOR=YELLOW,ATTRB=(PROT)
+SLN1      KIKMDF POS=(08,02),LENGTH=70,ATTRB=(PROT)
+SLN2      KIKMDF POS=(09,02),LENGTH=70,ATTRB=(PROT)
+RSEL11    KIKMDF POS=(10,04),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(10,06),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL12    KIKMDF POS=(10,10),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL13    KIKMDF POS=(10,13),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(10,16),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL14    KIKMDF POS=(10,18),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL15    KIKMDF POS=(10,21),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(10,24),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL16    KIKMDF POS=(10,29),LENGTH=49,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(10,79),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL21    KIKMDF POS=(11,04),LENGTH=01,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(11,06),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL22    KIKMDF POS=(11,10),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL23    KIKMDF POS=(11,13),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(11,16),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL24    KIKMDF POS=(11,18),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL25    KIKMDF POS=(11,21),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(11,24),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL26    KIKMDF POS=(11,29),LENGTH=49,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(11,79),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL31    KIKMDF POS=(12,04),LENGTH=01,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(12,06),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL32    KIKMDF POS=(12,10),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL33    KIKMDF POS=(12,13),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(12,16),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL34    KIKMDF POS=(12,18),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL35    KIKMDF POS=(12,21),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(12,24),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL36    KIKMDF POS=(12,29),LENGTH=49,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(12,79),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL41    KIKMDF POS=(13,04),LENGTH=01,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(13,06),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL42    KIKMDF POS=(13,10),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL43    KIKMDF POS=(13,13),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(13,16),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL44    KIKMDF POS=(13,18),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL45    KIKMDF POS=(13,21),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(13,24),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL46    KIKMDF POS=(13,29),LENGTH=49,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(13,79),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL51    KIKMDF POS=(14,04),LENGTH=01,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(14,06),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL52    KIKMDF POS=(14,10),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL53    KIKMDF POS=(14,13),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(14,16),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL54    KIKMDF POS=(14,18),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL55    KIKMDF POS=(14,21),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(14,24),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL56    KIKMDF POS=(14,29),LENGTH=49,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(14,79),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL61    KIKMDF POS=(15,04),LENGTH=01,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(15,06),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL62    KIKMDF POS=(15,10),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL63    KIKMDF POS=(15,13),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(15,16),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL64    KIKMDF POS=(15,18),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL65    KIKMDF POS=(15,21),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(15,24),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL66    KIKMDF POS=(15,29),LENGTH=49,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(15,79),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL71    KIKMDF POS=(16,04),LENGTH=01,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(16,06),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL72    KIKMDF POS=(16,10),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL73    KIKMDF POS=(16,13),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(16,16),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL74    KIKMDF POS=(16,18),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL75    KIKMDF POS=(16,21),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(16,24),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL76    KIKMDF POS=(16,29),LENGTH=49,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(16,79),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL81    KIKMDF POS=(17,04),LENGTH=01,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(17,06),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL82    KIKMDF POS=(17,10),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL83    KIKMDF POS=(17,13),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(17,16),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL84    KIKMDF POS=(17,18),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL85    KIKMDF POS=(17,21),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(17,24),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL86    KIKMDF POS=(17,29),LENGTH=49,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(17,79),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL91    KIKMDF POS=(18,04),LENGTH=01,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(18,06),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL92    KIKMDF POS=(18,10),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL93    KIKMDF POS=(18,13),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(18,16),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL94    KIKMDF POS=(18,18),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+RSEL95    KIKMDF POS=(18,21),LENGTH=02,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(18,24),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+RSEL96    KIKMDF POS=(18,29),LENGTH=49,                                X
+               HILIGHT=UNDERLINE,                                      X
+               ATTRB=(FSET,UNPROT,NORM)
+          KIKMDF POS=(18,79),LENGTH=01,INITIAL=' ',ATTRB=(PROT,NORM)
+          KIKMDF POS=(23,01),LENGTH=09,INITIAL='PF-4 NEXT',            X
+               COLOR=YELLOW,ATTRB=(PROT)
+VDAY1     KIKMDF POS=(23,11),LENGTH=01,ATTRB=(PROT),COLOR=GREEN        
+          KIKMDF POS=(23,13),LENGTH=04,INITIAL='DAYS',COLOR=YELLOW,    X
+               ATTRB=(PROT)
+          KIKMDF POS=(23,21),LENGTH=09,INITIAL='PF-5 PREV',            X
+               COLOR=YELLOW,ATTRB=(PROT)
+VDAY2     KIKMDF POS=(23,30),LENGTH=01,ATTRB=(PROT),COLOR=GREEN 
+          KIKMDF POS=(23,32),LENGTH=04,INITIAL='DAYS',                 X
+               COLOR=YELLOW,ATTRB=(PROT)
+          KIKMDF POS=(23,45),LENGTH=10,INITIAL='PF-10 HELP',           X
+               COLOR=YELLOW,ATTRB=(PROT)
+          KIKMDF POS=(23,67),LENGTH=11,INITIAL='PF12 RETURN',          X
+               COLOR=YELLOW,ATTRB=(PROT)
+PCOMM     KIKMDF POS=(24,05),LENGTH=70,COLOR=RED
+          KIKMSD TYPE=FINAL
+          END

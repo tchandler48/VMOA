@@ -1,0 +1,94 @@
+USERID KICKS
+VMOAM15   KIKMSD MODE=INOUT,CTRL=(FREEKB,FRSET),EXTATT=YES,            X
+               MAPATTS=(COLOR,HILIGHT),DSATTS=(COLOR,HILIGHT)
+MAPA      KIKMDI SIZE=(24,80)
+CTIME     KIKMDF POS=(01,05),LENGTH=08,PICOUT='99B99B99',              X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(01,28),LENGTH=12,INITIAL='VM370 OFFICE',         X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(01,41),LENGTH=10,INITIAL='AUTOMATION',           X
+               ATTRB=(PROT,BRT)
+DATEA     KIKMDF POS=(01,68),LENGTH=10,PICOUT='99B99B9999',            X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(02,05),LENGTH=07,INITIAL='VMOAM15',              X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(02,35),LENGTH=04,INITIAL='VSAM',                 X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(02,40),LENGTH=06,INITIAL='USEAGE',               X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(02,72),LENGTH=04,INITIAL='MAPA',                 X
+               ATTRB=(PROT,BRT)
+          KIKMDF POS=(05,11),LENGTH=04,INITIAL='VSAM',                 X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(06,11),LENGTH=04,INITIAL='NAME',                 X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(06,25),LENGTH=11,INITIAL='DESCRIPTION',          X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(06,55),LENGTH=07,INITIAL='RECORDS',              X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(08,10),LENGTH=07,INITIAL='VMOACAL',              X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(08,25),LENGTH=15,INITIAL='MASTER CALENDAR',      X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(08,41),LENGTH=07,INITIAL='RECORDS'               X
+               ATTRB=(PROT),COLOR=YELLOW
+SCT1      KIKMDF POS=(08,57),PICOUT='Z,ZZ9',LENGTH=05,ATTRB=(PROT),    X
+               COLOR=GREEN
+          KIKMDF POS=(09,10),LENGTH=07,INITIAL='VMOASEC',              X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(09,25),LENGTH=13,INITIAL='USER PROFILES',        X
+               ATTRB=(PROT),COLOR=YELLOW
+SCT2      KIKMDF POS=(09,57),PICOUT='Z,ZZ9',LENGTH=05,ATTRB=(PROT),    X
+               COLOR=GREEN
+          KIKMDF POS=(10,10),LENGTH=07,INITIAL='VMOAURC',              X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(10,25),LENGTH=04,INITIAL='USER',                 X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(10,30),LENGTH=10,INITIAL='CONFERENCE',           X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(10,41),LENGTH=07,INITIAL='RECORDS',              X
+               ATTRB=(PROT),COLOR=YELLOW
+SCT3      KIKMDF POS=(10,57),PICOUT='Z,ZZ9',LENGTH=05,ATTRB=(PROT),    X
+               COLOR=GREEN
+          KIKMDF POS=(11,10),LENGTH=07,INITIAL='VMOACRS',              X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(11,25),LENGTH=10,INITIAL='CONFERENCE',           X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(11,36),LENGTH=04,INITIAL='ROOM',                 X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(11,41),LENGTH=07,INITIAL='RECORDS',              X
+               ATTRB=(PROT),COLOR=YELLOW
+SCT4      KIKMDF POS=(11,57),PICOUT='Z,ZZ9',LENGTH=05,ATTRB=(PROT),    X
+               COLOR=GREEN
+          KIKMDF POS=(12,10),LENGTH=07,INITIAL='VMOADST',              X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(12,25),LENGTH=13,INITIAL='DISTRIBUTIOIN',        X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(12,39),LENGTH=04,INITIAL='LIST',                 X
+               ATTRB=(PROT),COLOR=YELLOW
+SCT5      KIKMDF POS=(12,57),PICOUT='Z,ZZ9',LENGTH=05,ATTRB=(PROT),    X
+               COLOR=GREEN
+          KIKMDF POS=(13,10),LENGTH=07,INITIAL='VMOAMML',              X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(13,25),LENGTH=12,INITIAL='MSG LOG FILE',         X
+               ATTRB=(PROT),COLOR=YELLOW
+SCT6      KIKMDF POS=(13,57),PICOUT='Z,ZZ9',LENGTH=05,ATTRB=(PROT),    X
+               COLOR=GREEN
+          KIKMDF POS=(14,10),LENGTH=07,INITIAL='VMOAMDT',              X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(14,25),LENGTH=13,INITIAL='MSG DATA FILE',        X
+               ATTRB=(PROT),COLOR=YELLOW
+SCT7      KIKMDF POS=(14,57),PICOUT='Z,ZZ9',LENGTH=05,ATTRB=(PROT),    X
+               COLOR=GREEN
+ERR1      KIKMDF POS=(23,10),LENGTH=40,COLOR=RED
+          KIKMDF POS=(24,05),LENGTH=15,INITIAL='ENTER SELECTION',      X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(24,21),LENGTH=03,INITIAL='==>',                  X
+               ATTRB=(PROT),COLOR=YELLOW
+SELA      KIKMDF POS=(24,25),LENGTH=02,ATTRB=(IC,FSET)
+          KIKMDF POS=(24,65),LENGTH=12,INITIAL='PF-12 RETURN',         X
+               ATTRB=(PROT),COLOR=YELLOW
+          KIKMDF POS=(24,78),LENGTH=01,INITIAL=' ',ATTRB=(PROT)
+          KIKMSD TYPE=FINAL
+          END
+ 

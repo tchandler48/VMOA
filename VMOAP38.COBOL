@@ -1,0 +1,44 @@
+USERID KICKS
+       ID DIVISION.
+       PROGRAM-ID.     VMOAP38.
+       ENVIRONMENT DIVISION.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  WS-CURRENT-DATE.
+           05  WS-CURRENT-YEAR  PIC 9(04).
+           05  WS-CURRENT-MONTH PIC 9(02).
+           05  WS-CURRENT-DAY   PIC 9(02).
+ 
+       COPY VMOAM38.
+       COPY DFHBMSCA.
+
+       PROCEDURE DIVISION.
+       START-OVER.
+           MOVE CURRENT-DATE TO WS-CURRENT-DATE.
+           MOVE WS-CURRENT-DATE TO CDATEO.
+  
+           MOVE TIME-OF-DAY TO CTIMEO.
+<NCB2>
+           EXAMINE CTIMEO REPLACING ALL ' ' BY ':'.
+</NCB2>
+           EXEC KICKS
+             SEND MAP('MAPA') MAPSET('VMOAM38') ERASE
+             END-EXEC.
+
+           EXEC KICKS HANDLE AID PF10(HELP40)
+                                 PF12(ENDPGM) END-EXEC.
+           EXEC KICKS
+             RECEIVE MAP('MAPA') MAPSET('VMOAM38')
+             END-EXEC.
+
+           EXEC KICKS RETURN END-EXEC.
+           GO TO START-OVER.
+
+       HELP40.
+           EXEC KICKS LINK PROGRAM('VMOAP40')
+              END-EXEC.      
+           GO TO START-OVER.
+
+       ENDPGM.
+           EXEC KICKS RETURN END-EXEC.
+           GO TO START-OVER.
